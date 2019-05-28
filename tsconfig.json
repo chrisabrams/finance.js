@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["esnext", "dom"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": false,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": ["mocha", "node"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": false,
+
+    "paths": {
+      "~/*": ["src/*"],
+      "test/*": ["test/*"]
+    }
+
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
